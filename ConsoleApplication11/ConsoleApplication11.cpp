@@ -8,7 +8,7 @@ int main()
 {
 	int i;
 	cin >> i;
-	for (;i > 0;i = i / 10) {
+	for (int i = 100;i > 0;i = i / 10) {
 		cout << i % 10;
 	}
 }
